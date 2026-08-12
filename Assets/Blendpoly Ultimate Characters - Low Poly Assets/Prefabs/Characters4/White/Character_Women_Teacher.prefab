@@ -76,13 +76,85 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -4078783318710176218, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000073807314
+      objectReference: {fileID: 0}
+    - target: {fileID: -4078783318710176218, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13565893
+      objectReference: {fileID: 0}
+    - target: {fileID: -4078783318710176218, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.000000230968
+      objectReference: {fileID: 0}
+    - target: {fileID: -4078783318710176218, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.839859
+      objectReference: {fileID: 0}
+    - target: {fileID: -4078783318710176218, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.5411629
+      objectReference: {fileID: 0}
+    - target: {fileID: -4078783318710176218, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.035461243
+      objectReference: {fileID: 0}
+    - target: {fileID: -4078783318710176218, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.022849398
+      objectReference: {fileID: 0}
+    - target: {fileID: -4078783318710176218, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 65.591
+      objectReference: {fileID: 0}
+    - target: {fileID: -4078783318710176218, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -4.836
+      objectReference: {fileID: 0}
     - target: {fileID: 168784638609577907, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
-      propertyPath: m_Materials.Array.data[0]
+      propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: bbc36cb09cf52bc43902bb17e1b36c6e, type: 2}
     - target: {fileID: 919132149155446097, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
       propertyPath: m_Name
       value: Character_Women_Teacher
+      objectReference: {fileID: 0}
+    - target: {fileID: 943223448204509391, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.000000020023435
+      objectReference: {fileID: 0}
+    - target: {fileID: 943223448204509391, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.13565943
+      objectReference: {fileID: 0}
+    - target: {fileID: 943223448204509391, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0000014603138
+      objectReference: {fileID: 0}
+    - target: {fileID: 943223448204509391, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.83720326
+      objectReference: {fileID: 0}
+    - target: {fileID: 943223448204509391, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.54558647
+      objectReference: {fileID: 0}
+    - target: {fileID: 943223448204509391, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.031640105
+      objectReference: {fileID: 0}
+    - target: {fileID: 943223448204509391, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.020619096
+      objectReference: {fileID: 0}
+    - target: {fileID: 943223448204509391, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 66.183
+      objectReference: {fileID: 0}
+    - target: {fileID: 943223448204509391, guid: 89eb8f0a74fea8a4cb454cb60812674b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 4.329
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
