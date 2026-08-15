@@ -2632,6 +2632,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8405525173687084112, guid: 5c23671c162e28441b4b1d23a03c5cad, type: 3}
+      propertyPath: m_text
+      value: type on me
+      objectReference: {fileID: 0}
+    - target: {fileID: 8405525173687084112, guid: 5c23671c162e28441b4b1d23a03c5cad, type: 3}
+      propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
+      value: 1801810542
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
