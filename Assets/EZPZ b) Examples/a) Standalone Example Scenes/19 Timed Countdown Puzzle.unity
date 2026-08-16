@@ -1808,6 +1808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Countdown Rig
       objectReference: {fileID: 0}
+    - target: {fileID: 5836004223436414742, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6458315708621499939, guid: d9c4c8b33223b8445844cca2933eebe2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.20229971
