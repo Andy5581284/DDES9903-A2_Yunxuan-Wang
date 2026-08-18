@@ -41,6 +41,24 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_DDES9903 A2/Scene/Resolution2.a.unity
     guid: ad57945a194ff354fb95685f126ce6a5
+  - enabled: 1
+    path: Assets/_DDES9903 A2/Scene/Resolution2.b.unity
+    guid: 8033549ab543eac458ecc56a0be1ce6b
+  - enabled: 1
+    path: Assets/_DDES9903 A2/Scene/resolution2.c.unity
+    guid: f048c0296803ab84a83fee00cde8faf9
+  - enabled: 1
+    path: Assets/_DDES9903 A2/Scene/Resolution2.d.unity
+    guid: c4b3c561ebf539e4bafbacebe3934c25
+  - enabled: 1
+    path: Assets/_DDES9903 A2/Scene/Resolution1.d.unity
+    guid: 9e5542afae85540408d17a7a36bc5e8e
+  - enabled: 1
+    path: Assets/_DDES9903 A2/Scene/Resolution1.e.unity
+    guid: bb226b3acbdb804449a97b4ece3ba88a
+  - enabled: 1
+    path: Assets/_DDES9903 A2/Scene/Resolution1.f.unity
+    guid: 4efc1368886ac7e4eb789a397b91c3c3
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 3c28928f4ba463b408fa3dad31f078ec, type: 2}
