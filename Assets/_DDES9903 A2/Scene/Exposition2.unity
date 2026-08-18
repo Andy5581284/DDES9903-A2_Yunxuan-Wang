@@ -40097,7 +40097,7 @@ GameObject:
   - component: {fileID: 1267250152}
   - component: {fileID: 1267250151}
   - component: {fileID: 1267250150}
-  - component: {fileID: 1267250149}
+  - component: {fileID: 1267250153}
   m_Layer: 0
   m_Name: Quad
   m_TagString: Untagged
@@ -40120,104 +40120,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1092174399}
   m_LocalEulerAnglesHint: {x: 9.822, y: 135.687, z: 3.913}
---- !u!114 &1267250149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1267250147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Holdable
-  onPrimaryInteract:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1092174398}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1092174398}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  onPrimaryInteractLift:
-    m_PersistentCalls:
-      m_Calls: []
-  onSecondaryInteract:
-    m_PersistentCalls:
-      m_Calls: []
-  onSecondaryInteractLift:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnter:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExit:
-    m_PersistentCalls:
-      m_Calls: []
-  hoverText: 
-  customTouchDistance: -1
-  heldText: 
-  restrictSecondaryToHeldOnly: 0
-  customHoldDistance: -1
-  eventRelay: {fileID: 0}
-  onPrimaryInteractBackground:
-    m_PersistentCalls:
-      m_Calls: []
-  onPrimaryInteractLiftBackground:
-    m_PersistentCalls:
-      m_Calls: []
-  onSecondaryInteractBackground:
-    m_PersistentCalls:
-      m_Calls: []
-  onSecondaryInteractLiftBackground:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverEnterBackground:
-    m_PersistentCalls:
-      m_Calls: []
-  onHoverExitBackground:
-    m_PersistentCalls:
-      m_Calls: []
-  onDrop:
-    m_PersistentCalls:
-      m_Calls: []
-  attachPoint: {fileID: 0}
-  throwForceFactor: 0
-  maxThrowHoldTime: 2
-  noCollideOnHold: 1
-  groundPlace: 0
-  dropOnKeyLift: 0
-  groundPlaceOffset: {x: 0, y: 0, z: 0}
-  freezeRotation: 0
-  startingPosition: {x: 0, y: 0, z: 0}
-  startingRotation: {x: 0, y: 0, z: 0, w: 0}
-  myRbody: {fileID: 0}
-  myCollider: {fileID: 0}
-  myMagnetSnapper: {fileID: 0}
-  myRayManipulator: {fileID: 0}
-  originalUseGravity: 1
-  moving: 0
-  subCollliders: []
 --- !u!64 &1267250150
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -40297,6 +40199,84 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267250147}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1267250153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267250147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
+  onPrimaryInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1092174398}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1092174398}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onPrimaryInteractLift:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondaryInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondaryInteractLift:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverExit:
+    m_PersistentCalls:
+      m_Calls: []
+  hoverText: 
+  customTouchDistance: -1
+  heldText: 
+  restrictSecondaryToHeldOnly: 0
+  customHoldDistance: -1
+  eventRelay: {fileID: 0}
+  onPrimaryInteractBackground:
+    m_PersistentCalls:
+      m_Calls: []
+  onPrimaryInteractLiftBackground:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondaryInteractBackground:
+    m_PersistentCalls:
+      m_Calls: []
+  onSecondaryInteractLiftBackground:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverEnterBackground:
+    m_PersistentCalls:
+      m_Calls: []
+  onHoverExitBackground:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &1269634163
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40623,9 +40603,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1273718322}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 46af44fc27f29524da026e4f9f3da44d, type: 3}
+  m_Script: {fileID: 11500000, guid: 021a70606049ebd4f90ad8b6735c07b8, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Holdable
+  m_EditorClassIdentifier: Assembly-CSharp::InteractableGeneral
   onPrimaryInteract:
     m_PersistentCalls:
       m_Calls:
@@ -40728,26 +40708,6 @@ MonoBehaviour:
   onHoverExitBackground:
     m_PersistentCalls:
       m_Calls: []
-  onDrop:
-    m_PersistentCalls:
-      m_Calls: []
-  attachPoint: {fileID: 0}
-  throwForceFactor: 0
-  maxThrowHoldTime: 2
-  noCollideOnHold: 1
-  groundPlace: 0
-  dropOnKeyLift: 0
-  groundPlaceOffset: {x: 0, y: 0, z: 0}
-  freezeRotation: 0
-  startingPosition: {x: 0, y: 0, z: 0}
-  startingRotation: {x: 0, y: 0, z: 0, w: 0}
-  myRbody: {fileID: 0}
-  myCollider: {fileID: 0}
-  myMagnetSnapper: {fileID: 0}
-  myRayManipulator: {fileID: 0}
-  originalUseGravity: 1
-  moving: 0
-  subCollliders: []
 --- !u!1001 &1274753377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51609,7 +51569,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0.008634129, y: 0.3534378, z: -0.023636855, w: 0.93511957}
   m_LocalPosition: {x: 12.15, y: 1.52, z: 32.584}
-  m_LocalScale: {x: 0.34669572, y: 0.50095034, z: 0.5027434}
+  m_LocalScale: {x: 0.42744115, y: 0.7676563, z: 0.5544255}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
